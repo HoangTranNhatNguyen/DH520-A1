@@ -1,1 +1,2 @@
-# DH520-A1
+# DH520 University of Alberta - Assignment 1 - Interative Story
+This is a group assignment for the DH520 course, the University of Alberta. 
