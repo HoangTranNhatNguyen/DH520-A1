@@ -7,6 +7,17 @@ Print("What's your favourite food?: \n")
 food = input
 Print(f "Ok {name}, you like {food}. Let's go grocery shoppping." )
 
+# define the grocery store  
+class The_Store(Scene):
+    def enter(self):
+        print(dedent("""
+            You are grocery shopping in a pandemic. Things don't go the way you expect. You need a mask, the store is out of lots of things, and there are killer bees. 
+            """)
+
+        action = input("> ")
+              
+  
+
 Question 1: Do you have a mask
 if yes, go to question 2. If no, go to Out_run killer bees
 Question 2: Do you need flour, yeast, toiletpaper or lysol?
